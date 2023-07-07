@@ -1,0 +1,266 @@
+{
+    "Summary": "I have college experience with Web Development, Statistics, Computer Graphics, Computer Networking, Computer Operating Systems, and Parallel programming, as well as some technical hands on experience in utilizing machine learning libraries to create forecasting models, managing databases, and creating full stack websites. I have a large Interest in deepening my knowledge of machine learning, web-development, and distributed systems. I am looking for a role as a Software Engineer or Data Scientist that will fulfill my eagerness to learn new technologies.",
+    "Education": {
+        "University of the Pacific": [
+            "MS in Computer Science",
+            "Graduation: May 13th 2023",
+            "GPA: 4.0"
+        ],
+        "University of California: Davis": [
+            "BS in Computer Science and Engineering",
+            "Graduated: December 2018"
+        ]
+    },
+    "Work Experience": {
+        "Crest Data Systems": [
+            "Automation Engineer • June 2019 – August 2022",
+            "Solutions provider in Data Analytics, Security, DevOps and Cloud",
+            "Github Profile: https://github.com/seanmalloy-crest",
+            "• Ensure websites accessibility by conforming to the W3C and WCAG standards to achieve 508 compliance",
+            "• Automated workflows with Jenkins, CircleCI, and Github Actions to run a dynamic test tool I helped develop to automatically generate and execute 90,000 tests for Splunk Add-ons as part of CICD",
+            "-Pytest-Splunk-Addon Github Repo",
+            "• Helped maintain CICD workflows, and root out new bugs in Splunk Add-ons.",
+            "• Performed transfer of knowledge presentations of projects I worked on with the rest of my company",
+            "• Worked in the creation of an HR website for Crest Data Systems",
+            "• Created a Selenium-based library to test 4,000 UI components for Splunk called SmartX",
+            "-SmartX Github Repo",
+            "• Created Documentation for the projects we have worked on and collaborated in a team environment.",
+            "- Pytest-Splunk-Addon Docs",
+            "- SmartX UI Docs"
+        ],
+        "SAP IxP Program - San Ramon CA": [
+            "Software Engineer Intern • June 2018 - September 2018",
+            "• Developed an analytical dashboard to consolidate information from 4 databases to reduce the time to discover new and relevant software bugs.",
+            "• Documented my Work and collaborated in a team environment.",
+            "• Developed full stack website with OpenUI5, and Node.JS, as well as SAP HANA SQL.",
+            "• Built Python Scripts to automatically maintain database on a scheduled basis.",
+            "• Implemented projects with XML, Python, JavaScript, Scala, SQL, CSS, and HTML programming languages",
+            "",
+            "Software Engineer Intern • June 2017 - September 2017",
+            "• Engineered a POC of SparkR on SAP HANA using SQL procedures alongside a Cloudera Cluster to produce machine learning models 60 times faster than on a single machine.",
+            "• Programmed with R to create multiple models with an accuracy of over 90%.",
+            "• Hands-on experience working with databases and Cloud Infrastructure",
+            "• Implemented projects with R and SQL programming languages"
+        ]
+    },
+    "Completed Course": {
+        "Advanced Software Engineering": [
+            "Fall 2022",
+            "• Learned about Software Engineering best practices and how to design, analyze, and maintain complex systems.",
+            "• Learned how to create better documentation and how to use tools like CICD, SAST, Power Automate.",
+            "• Learned more about Python, Go, Java, and C++ by practicing writing code within Exercism.",
+            "• Contributed to open source projects, in particular I resolved 5 different issues with 5 Pull Requests within Pandas.",
+            "• Coordinated a project to create a PyGame API that stores and keeps track of user's music."
+        ],
+        "Interaction Design": [
+            "Fall 2022",
+            "• Spearheaded a team of 4 to create a design for an app that would help people plan group trips. - Figma Prototype",
+            "• Learned about the design process and how to create a design that is user friendly",
+            "• Learned about the importance of user testing and how to get anonymous feedback"
+        ],
+        "Management Skills": [
+            "Fall 2022",
+            "•  Learned how to be a team player and important techniques for team management.",
+            "•  Coordinated and directed teams to accomplish projects within the course"
+        ],
+        "Advanced Algorithms": [
+            "Fall 2022",
+            "•  Learned about the design and analysis of algorithms, including Graph Theory, Dynamic Programming, Sorting Algorithms, Search, Divide and Conquer, Greedy Algorithms, and NP-Completeness."
+        ],
+        "Techniques in Research": [
+            "Fall 2022",
+            "•  Learned how to create research papers and how to present them. •  Presented a research paper on Artificial Intelligence and its ability to generate stories."
+        ],
+        "Programming on Parallel Architectures": [
+            "Fall 2018",
+            "•  Crafted programs in C and C++ with OpenMP, MPI, pthreads, and CUDA.",
+            "•  Studied parallel architectures such as shared memory, SIMD, Message Passing, interconnect structures, distributed systems, concurrency, and cache coherency",
+            "•  Implemented class projects with C and C++ programming languages"
+        ],
+        "Computer Graphics": [
+            "Fall 2018",
+            "•  Principles of computer graphics, with a focus on interactive systems. Current graphics hardware, elementary operations in two-and three-dimensional space, geometric transformations, camera models and interaction, graphics system design, standard graphics APIs, individual projects.",
+            "•  Course includes Computer Graphics Hardware, the interactive graphics pipeline, basic architecture of modern Graphics, Processing Units, the CPU-GPU interface, Curve and Surface Drawing, Line drawings, Bezier curves and B-spline curves, Rasterization of triangles, Transformations, Modeling, and Lighting Rendering",
+            "•  Implemented class projects with C and C++ programming languages"
+        ],
+        "Web Programming": [
+            "Spring 2018",
+            "•  Front-End development: HTML, Flexbox, React, CSS, and Object-Oriented JavaScript",
+            "•  Back-End development: Ajax, JSONP, CORS, Dynamic Web pages, server implementation, database management with SQL, Google Cloud Platform, AWS, online security",
+            "•  Implemented class projects with JavaScript, HTML, SQL, and CSS programming languages"
+        ],
+        "Embedded Systems": [
+            "Spring 2018",
+            "•  Studied CISC and RISC Architecture, I/O programming, Hardware Interrupt architecture, Microcontroller Architecture, Embedded and real time operating systems, and hardware interfacing",
+            "•  Implemented multiple Hardware and software programming with Texas Instruments CC3200 Launchpad Microcontroller",
+            "•  Implemented class projects with C programming language"
+        ],
+        "Senior Design Project": [
+            "Winter & Spring 2018",
+            "•  Full Stack team project that launched a Firebase website alongside a mobile app. Utilized Cloud Firestore NoSQL database system to authorize users, store user settings, and store dream logs. Implemented a user feed with JavaScript, HTML, and CSS.",
+            "•  Constant correspondence with client, with meetings to discuss development time, feature definitions, designs, innovative solutions, and conflict management",
+            "•  Implemented class projects with JavaScript, Java, HTML, SQL, and CSS programming languages"
+        ],
+        "Software Engineering": [
+            "Spring 2018",
+            "•  Study of Requirements, specification, design, implementation, testing, and verification of large software systems.",
+            "•  Study and use of software engineering methodologies and Team programming.",
+            "•  Study of Software Lifecycle Models such as Build-and-Fix, Waterfall, Agile, Rapid-Prototype Incremental, and Spiral methodologies.",
+            "•  Study of Architectural Designs in Abstraction, Hierarchies, and Subassemblies, Data-oriented, Object-Oriented, CASE Tools, Class Presentations, and Design Document",
+            "•  Study of techniques in Implementation and Integration such as Top-Down design, Bottom-Up design, Inside-Out design, Thin-Thread, Coding Standards and Practices, Configuration Control, Team Organization, Testing (Glass box and Black box), Validation and Verification, and Software Reuse.",
+            "•  Implemented class projects with Java and C++ programming languages"
+        ],
+        "Operating Systems and System Programming": [
+            "Winter 2018",
+            "•  Studied basic concepts of operating systems, processes and interprocesses communication/synchronization, virtual memory, program loading, and I/O subsystems.",
+            "•  Projects involve design and creation of modified process/thread schedulers alongside multicore architectures, addition of I/O drivers, and memory allocation.",
+            "•  Implemented class projects with C and C++ programming languages"
+        ],
+        "Computer Networks": [
+            "Fall 2017",
+            "•  TCP/IP protocol suite, computer-networking applications and protocols, transport-layer protocols, network architectures, Internet Protocol (IP), routing, link-layer protocols, Broadcast Communication Networks, local area and wireless networks, medium access control, physical aspects of data transmission, and network-performance analysis.",
+            "•  Implemented class projects with Python and C++ programming languages"
+        ],
+        "Programming Languages": [
+            "Fall 2017",
+            "•  Syntactic definition of programming languages.",
+            "•  Introduction to programming language features including variables, data types, data abstraction, object-orientedness, scoping, parameter disciplines, exception handling.",
+            "•  Non-imperative programming languages such as Functional programming languages and Logic programming languages.",
+            "•  Comparative study of several high-level programming languages.",
+            "•  Implemented class projects with C++, Java, Python, LISP, Haskell, and Prolog programming languages"
+        ],
+        "Theory and Practice of Bioinformatics": [
+            "Spring 2017",
+            "•  Fundamental biological, mathematical and algorithmic models underlying bioinformatics and systems biology; sequence analysis, database search, genome annotation, clustering and classification, functional gene networks, regulatory network inference, phylogenetic trees; applications of common bioinformatics tools in molecular biology and genetics.",
+            "•  Sequence analysis: Probabilistic and biological models underlying sequence alignment, computational efficiency and the need for compromises in the models, general technique of dynamic programming, FASTA, BLAST, PSI-BLAST, scoring matrices, statistical significance and its significance, multiple sequence alignment, genome assembly and high-throughput transcriptional profiling",
+            "•  Techniques in Systems Biology such as: Clustering (K-means, hierarchical clustering), Classification (naive Bayes, Support Vector Machines), and Machine Learning (Biology Overfitting, bias-variance trade-off, curse of dimensionality, and Validation methods)",
+            "•  Implemented class projects with Perl and Java programming languages"
+        ],
+        "Computer Architecture I & II": [
+            "Winter & Spring 2017",
+            "•  Implemented Uniprocessor and Multiprocessor CPU’s within Logisim",
+            "•  Understanding of the entire Semiconductor manufacturing flow Fab, Wafer Sort, Assembly.",
+            "•  Studied Combinational and Sequential Digital Design, Pipelining, Hierarchical Memory, System Design, Integrated Circuit Design, and operating systems software.",
+            "•  Implemented class projects with Logism"
+        ],
+        "Probability and statistical modeling for Computer Science": [
+            "Winter 2017",
+            "•  Studied several statistical topics such as Univariate and multivariate distributions probability, Markov Models, Sampling, estimation, model building, and regression analysis.",
+            "•  Studied statistics in applications to data mining, networks, disk systems, security, software engineering, machine learning, and bioinformatics.",
+            "•  Utilized R (data tables, dplyr, caret, ggplot), Matlab, and Python (Keras, NumPy, SciPy, SciKit-learn, matplotlib) to implement machine learning applications.",
+            "•  Implemented class projects with R programming language"
+        ],
+        "Algorithm Design and Analysis": [
+            "Fall 2016",
+            "•  Study on complexity of algorithms, bounds on complexity, algorithms for searching, sorting, pattern matching, graph manipulation, combinatorial problems, randomized algorithms, introduction to NP-complete problems."
+        ],
+        "Computer Organization and Machine-Dependent Programming": [
+            "Fall 2016",
+            "•  Comparative study of different hardware architectures via programming in the assembly languages of various machines.",
+            "•  Role of system software in producing an abstract machine.",
+            "•  Introduction to Machine Capability and Speed",
+            "•  Introduction to I/O devices, processor Architecture, and programming.",
+            "•  Introduction to Processor Architecture: Study of instruction sets, addressing modes and register sets, and their variation from one machine to another.",
+            "•  Comparison of at least one CISC architecture and at least one RISC architecture, via extensive assembly-language programming on each.",
+            "•  Memory-mapped versus separate-address-space I/O.",
+            "•  Study of Hardware interrupts, I/O programming—wait-loop, interrupt-driven, and via calls to operating system services or keyboard, video and file access.",
+            "•  Distinction between the roles of hardware and software.",
+            "•  The use of compilers and operating systems in providing abstractions and machine independence to the programmer.",
+            "•  Compiler implementation of C/Pascal data types, and storage allocation of variables in memory.",
+            "•  Role of the operating system in helping the programmer to create, store and execute his/her programs, and in managing system resources.",
+            "•  Transportability/nontransportability of programs on different machines, and under different operating systems and compilers.",
+            "•  Efficiency of compiled vs. hand-coded programs.",
+            "•  Writing mixed C-language/assembly language programs for extra efficiency or for special capabilities.",
+            "•  Tradeoffs between the speed of hardware implementation of a function and the flexibility of software implementation.",
+            "•  Implemented class projects with C and Assembly programming language"
+        ],
+        "Data Structures and Programming": [
+            "Spring 2016",
+            "•  study of data structures, including stacks, queues, lists, skip lists, trees, binary search trees, AVL trees, splay trees, B-trees, priority queues, hash tables, and the union/find data structure.",
+            "•  Analysis of algorithms, including sorting, graph algorithms, topological sort, depth-first search, shortest path, minimum spanning tree.",
+            "•  Amortized analysis and related Asymptotic analysis.",
+            "•  Study of tries, Huffman codes, branch-and-bound, digital search trees, Fibonacci heaps, network flow, and critical path analysis.",
+            "•  Implemented class projects with C and C++ programming language"
+        ],
+        "Software Development and Object-Oriented Programming": [
+            "Fall 2015",
+            "•  Elements of program design, style, documentation, efficiency.",
+            "•  Methods for debugging and verification. Operating system tools.",
+            "•  Principles and use of object-oriented programming Basic data structures and their use.",
+            "•  Detailed instruction on Object-oriented design and implementation, polymorphism, operator overloading, encapsulation, derivation.",
+            "•  The UNIX Environment: First-level understanding of the nature of UNIX processes and job control. UNIX hierarchical file system. Use of system files such as library and “include” files. Shell scripts.",
+            "•  Advanced Programming Concepts: Pointers, recursion, file manipulation. Singly-and doubly-linked lists, binary trees, queues, and stacks.",
+            "•  Use of Software Development Tools: Debugging techniques, especially using UNIX debugging aids such as gdb/ddd. Effective use of windowing environments, such as X windows and emacs. Program development as multi-file modules, and use of the UNIX “make” program to organize them.",
+            "•  Implemented class projects with C and C++ programming languages"
+        ],
+        "Discrete Mathematics for Computer Science": [
+            "Winter 2015",
+            "•  Studied discrete mathematics of particular utility to computer science, Proofs by induction, Propositional and first-order logic, Set Theory, functions, and relations, Big-O and related Asymptotic notations, Recursion and solutions of recurrence relations, Combinatorics, Probability on finite probability spaces, discrete probability, and Graph theory."
+        ],
+        "Programming and Problem Solving": [
+            "Fall 2014",
+            "•  Introduction to algorithm design, and debugging. Elements of good programming style.",
+            "•  Use of basic UNIX tools, Algorithms, and Data structure",
+            "•  software engineering: running, debugging, testing programs, building quality programs.",
+            "•  Implemented class projects with C programming language"
+        ]
+    },
+    "Leadership": {
+        "Davis Anime Club": [
+            "September 2015 - June 2016 \brRetention Manager",
+            "Organized 40+ Club Events",
+            "•  Coordinated a Mentorship program that would meetup weekly",
+            "•  Directed a Sub-Club with a 20+ club member attendance bi-weekly",
+            "•  Managed social interactions between club members and retained 10+ members"
+        ]
+    },
+    "projects": {
+        "Lucid Dream Generator": [
+            "Spearheaded a project that implemented a Firebase website alongside a mobile app",
+            "Provided a system to Store user information, authorize users, and access dream logs",
+            "Utilized Firestore to store information in a noSQL online database"
+        ],
+        "Phong Lighting Model": [
+            "Created an OpenGL program that can simulate the Phong Lighting model on polygons",
+            "Implemented painters Algorithm alongside Gouraud shading to rasterize 3D polygons"
+        ]
+    },
+    "Skills": {
+        "Proficient": [
+            "C",
+            "C++",
+            "Python",
+            "Java",
+            "SQL",
+            "R",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "NodeJS",
+            "git",
+            "SAP HANA",
+            "openGL",
+            "OpenMP",
+            "OpenMPI",
+            "CUDA",
+            "Linux",
+            "Jupyter Notebooks",
+            "Full Stack Web Development",
+            "Unix/Linux",
+            "Database management",
+            "Data visualization",
+            "DevOps - Agile Methodologies",
+            "Computer Architecture"
+        ],
+        "Familiar": [
+            "Docker",
+            "Machine Learning",
+            "HADOOP",
+            "React",
+            "Cloudera",
+            "Spark",
+            "ReatJS",
+            "Computer Networking"
+        ]
+    }
+}
