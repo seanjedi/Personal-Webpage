@@ -11,7 +11,7 @@
             "Graduated: December 2018"
         ]
     },
-    "Work Experience": {
+    "WorkExperiences": {
         "Crest Data Systems": [
             "Automation Engineer • June 2019 – August 2022",
             "Solutions provider in Data Analytics, Security, DevOps and Cloud",
@@ -43,7 +43,7 @@
             "• Implemented projects with R and SQL programming languages"
         ]
     },
-    "Completed Course": {
+    "CompletedCourses": {
         "Advanced Software Engineering": [
             "Fall 2022",
             "• Learned about Software Engineering best practices and how to design, analyze, and maintain complex systems.",
@@ -214,7 +214,7 @@
             "•  Managed social interactions between club members and retained 10+ members"
         ]
     },
-    "projects": {
+    "Projects": {
         "Lucid Dream Generator": [
             "Spearheaded a project that implemented a Firebase website alongside a mobile app",
             "Provided a system to Store user information, authorize users, and access dream logs",

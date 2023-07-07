@@ -1,39 +1,56 @@
 import React, { useState } from "react";
+import styled from "styled-components";
 
 const Header = () => {
-  const headerStyle = {
-    background: "#1f2833",
-    color: "#80869e",
-    paddingTop: "20px",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    marginBottom: "20px",
-  };
+  const HeaderContainer = styled.div`
+    background: #1f2833;
+    font-weight: bolder;
+    color: #66fcf1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  `;
 
-  const navStyle = {
-    fontSize: "16px",
-    fontWeight: "bold",
-    paddingLeft: "50px",
-    paddingRight: "50px",
-    flexGrow: 1,
-    flex: "0",
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-between",
-    alignItems: "center",
-    color: "#ffffff",
-    background: "#1d1f25",
-  };
+  const NavContainer = styled.nav`
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background: #1d1f25;
+  `;
 
-  const linkStyle = {
-    paddingLeft: "5px",
-    paddingRight: "5px",
-    color: "#ffffff",
-    textDecoration: "none",
-    transition: "color 0.3s",
-    fontWeight: "normal",
-  };
+  const Link = styled.a`
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: normal;
+
+    ${({ isActive }) =>
+      isActive &&
+      `
+			font-weight: bold;
+			color: #66fcf1;
+	`}
+
+    &:hover {
+      color: #66fcf1;
+      font-weight: bold;
+    }
+  `;
 
   const [hoveredLink, setHoveredLink] = useState(null);
 
@@ -47,42 +64,40 @@ const Header = () => {
 
   const getLinkStyle = (link) => {
     const isActive = hoveredLink === link;
-    return {
-      ...linkStyle,
-      fontWeight: isActive ? "bold" : "normal",
-      color: isActive ? "#66fcf1" : "#ffffff",
-    };
+    return isActive;
   };
 
   return (
     <>
-      <header style={headerStyle}>Sean Malloy</header>
-      <nav style={navStyle}>
-        <a
+      <HeaderContainer>
+        <h1>Sean Malloy</h1>
+      </HeaderContainer>
+      <NavContainer>
+        <Link
           href="https://www.linkedin.com/in/seanpmalloy/"
-          style={getLinkStyle("LinkedIn")}
+          isActive={getLinkStyle("LinkedIn")}
           onMouseEnter={() => handleMouseEnter("LinkedIn")}
           onMouseLeave={handleMouseLeave}
         >
           LinkedIn
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://github.com/seanjedi"
-          style={getLinkStyle("GitHub")}
+          isActive={getLinkStyle("GitHub")}
           onMouseEnter={() => handleMouseEnter("GitHub")}
           onMouseLeave={handleMouseLeave}
         >
           GitHub
-        </a>
-        <a
+        </Link>
+        <Link
           href="mailto:s_malloy1@u.pacific.edu"
-          style={getLinkStyle("Email")}
+          isActive={getLinkStyle("Email")}
           onMouseEnter={() => handleMouseEnter("Email")}
           onMouseLeave={handleMouseLeave}
         >
           Email
-        </a>
-      </nav>
+        </Link>
+      </NavContainer>
     </>
   );
 };
