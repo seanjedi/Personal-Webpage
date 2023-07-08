@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 
 const Header = () => {
@@ -39,33 +38,11 @@ const Header = () => {
     transition: color 0.3s;
     font-weight: normal;
 
-    ${({ isActive }) =>
-      isActive &&
-      `
-			font-weight: bold;
-			color: #66fcf1;
-	`}
-
     &:hover {
       color: #66fcf1;
       font-weight: bold;
     }
   `;
-
-  const [hoveredLink, setHoveredLink] = useState(null);
-
-  const handleMouseEnter = (link) => {
-    setHoveredLink(link);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredLink(null);
-  };
-
-  const getLinkStyle = (link) => {
-    const isActive = hoveredLink === link;
-    return isActive;
-  };
 
   return (
     <>
@@ -73,30 +50,9 @@ const Header = () => {
         <h1>Sean Malloy</h1>
       </HeaderContainer>
       <NavContainer>
-        <Link
-          href="https://www.linkedin.com/in/seanpmalloy/"
-          isActive={getLinkStyle("LinkedIn")}
-          onMouseEnter={() => handleMouseEnter("LinkedIn")}
-          onMouseLeave={handleMouseLeave}
-        >
-          LinkedIn
-        </Link>
-        <Link
-          href="https://github.com/seanjedi"
-          isActive={getLinkStyle("GitHub")}
-          onMouseEnter={() => handleMouseEnter("GitHub")}
-          onMouseLeave={handleMouseLeave}
-        >
-          GitHub
-        </Link>
-        <Link
-          href="mailto:s_malloy1@u.pacific.edu"
-          isActive={getLinkStyle("Email")}
-          onMouseEnter={() => handleMouseEnter("Email")}
-          onMouseLeave={handleMouseLeave}
-        >
-          Email
-        </Link>
+        <Link href="https://www.linkedin.com/in/seanpmalloy/">LinkedIn</Link>
+        <Link href="https://github.com/seanjedi">GitHub</Link>
+        <Link href="mailto:s_malloy1@u.pacific.edu">Email</Link>
       </NavContainer>
     </>
   );
